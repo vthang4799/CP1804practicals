@@ -2,7 +2,6 @@ import os
 
 
 def main():
-    """Demo of os module functions."""
     print("Starting directory is: {}".format(os.getcwd()))
 
     # Change to desired directory

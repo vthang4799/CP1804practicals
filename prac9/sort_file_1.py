@@ -2,6 +2,7 @@ import os
 
 
 def main():
+    "This main"
     os.chdir("FilesToSort")
     for filename in os.listdir('.'):
         if os.path.isdir(filename):

@@ -2,6 +2,7 @@ import os
 
 
 def main():
+    "This is main"
     print("Current directory is", os.getcwd())
 
     # change to desired directory
